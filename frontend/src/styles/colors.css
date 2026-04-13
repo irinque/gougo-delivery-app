@@ -1,0 +1,19 @@
+:root {
+    --bg: #FFFFFF;
+    --bg-sec: #F5F7FA;
+
+    --text-main: #1A1A1A;
+    --text-sec: #6B7280;
+    --text-dis: #A0A0A0;
+
+    --border: #E5E7EB;
+    --divider: #D1D5DB;
+
+    --success: #22C55E;
+    --warning: #F59E0B;
+    --error: #EF4444;
+
+    --primary: #FF6B00;
+    --primary-hover: #E65F00;
+    --secondary: #0057FF;
+}
