@@ -1,0 +1,71 @@
+.app-header {
+    background-color: var(--bg-sec);
+    border-radius: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: calc((1.5vh + 1.5vw) / 2);
+    padding-left: calc((2vh + 2vw) / 2);
+    padding-right: calc((2vh + 2vw) / 2);
+}
+
+.app-header a {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: calc((1.4vh + 1.4vw) / 2);
+
+    text-decoration: none;
+    color: var(--text-main);
+}
+
+.header-switcher {
+    display: flex;
+    width: fit-content; 
+}
+
+.switcher-buttons {
+    background-color: var(--bg);
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.switcher-buttons a {
+    padding-left: calc((1.5vh + 1.5vw) / 2);
+    padding-right: calc((1.5vh + 1.5vw) / 2);
+    padding-top: calc((1vh + 1vw) / 2);
+    padding-bottom: calc((1vh + 1vw) / 2);
+    flex: 1;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.switcher-buttons a.active{
+    background-color: var(--primary);
+    border-radius: 15px;
+}
+
+.switcher-buttons a.inactive:hover {
+    background-color: rgba(0, 0, 0, 0.01);
+    border-radius: 15px;
+}
+
+.header-menu a {
+    background-color: var(--bg);
+    border-radius: 30px;
+
+    padding: calc((1vh + 1vw) / 2);
+}
+
+.header-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+}
+
+.header-logo-svg {
+    display: block;
+    height: calc((3.5vh + 3.5vw) / 2);
+    width: auto;
+}
